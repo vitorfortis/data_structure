@@ -2,7 +2,7 @@
 #include<stdlib.h>
 
 main(){
-    int *ptr;
+    int *ptr; // declaração de ponteiro 
     printf("Endereco: %p\n\n",ptr);
     ptr = (int *) malloc(sizeof (int));
     printf("Endereco: %p \n Valor: %d\n\n",ptr, *ptr);
